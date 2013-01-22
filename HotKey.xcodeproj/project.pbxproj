@@ -10,6 +10,7 @@
 		C19826FB16AF3667002830C0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19826FA16AF3667002830C0 /* Cocoa.framework */; };
 		C198270516AF3667002830C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C198270316AF3667002830C0 /* InfoPlist.strings */; };
 		C198270916AF3667002830C0 /* HotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = C198270816AF3667002830C0 /* HotKey.m */; };
+		C198271016AF36C9002830C0 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C198270F16AF36C9002830C0 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C198270616AF3667002830C0 /* HotKey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotKey-Prefix.pch"; sourceTree = "<group>"; };
 		C198270716AF3667002830C0 /* HotKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotKey.h; sourceTree = "<group>"; };
 		C198270816AF3667002830C0 /* HotKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotKey.m; sourceTree = "<group>"; };
+		C198270F16AF36C9002830C0 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C19826FB16AF3667002830C0 /* Cocoa.framework in Frameworks */,
+				C198271016AF36C9002830C0 /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +60,7 @@
 		C19826F916AF3667002830C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C198270F16AF36C9002830C0 /* Carbon.framework */,
 				C19826FA16AF3667002830C0 /* Cocoa.framework */,
 				C19826FC16AF3667002830C0 /* Other Frameworks */,
 			);
