@@ -7,18 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C19826FB16AF3667002830C0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19826FA16AF3667002830C0 /* Cocoa.framework */; };
 		C198270516AF3667002830C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C198270316AF3667002830C0 /* InfoPlist.strings */; };
 		C198270916AF3667002830C0 /* HotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = C198270816AF3667002830C0 /* HotKey.m */; };
 		C198271016AF36C9002830C0 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C198270F16AF36C9002830C0 /* Carbon.framework */; };
+		C198272D16AF3EA7002830C0 /* HotKey.h in Headers */ = {isa = PBXBuildFile; fileRef = C198270716AF3667002830C0 /* HotKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C19826F716AF3667002830C0 /* HotKey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HotKey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19826F716AF3667002830C0 /* HotKey.framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HotKey.framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19826FA16AF3667002830C0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		C19826FD16AF3667002830C0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		C19826FE16AF3667002830C0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		C19826FF16AF3667002830C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C198270216AF3667002830C0 /* HotKey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotKey-Info.plist"; sourceTree = "<group>"; };
 		C198270416AF3667002830C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C198270616AF3667002830C0 /* HotKey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotKey-Prefix.pch"; sourceTree = "<group>"; };
@@ -32,7 +29,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C19826FB16AF3667002830C0 /* Cocoa.framework in Frameworks */,
 				C198271016AF36C9002830C0 /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +48,7 @@
 		C19826F816AF3667002830C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C19826F716AF3667002830C0 /* HotKey.framework */,
+				C19826F716AF3667002830C0 /* HotKey.framework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,19 +58,8 @@
 			children = (
 				C198270F16AF36C9002830C0 /* Carbon.framework */,
 				C19826FA16AF3667002830C0 /* Cocoa.framework */,
-				C19826FC16AF3667002830C0 /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C19826FC16AF3667002830C0 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C19826FD16AF3667002830C0 /* AppKit.framework */,
-				C19826FE16AF3667002830C0 /* CoreData.framework */,
-				C19826FF16AF3667002830C0 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		C198270016AF3667002830C0 /* HotKey */ = {
@@ -104,6 +89,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C198272D16AF3EA7002830C0 /* HotKey.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +111,7 @@
 			);
 			name = HotKey;
 			productName = HotKey;
-			productReference = C19826F716AF3667002830C0 /* HotKey.framework */;
+			productReference = C19826F716AF3667002830C0 /* HotKey.framework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -290,6 +276,7 @@
 				C198270E16AF3667002830C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
