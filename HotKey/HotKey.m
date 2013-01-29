@@ -94,7 +94,7 @@
     [[HotKey registeredHotKeys] setValue:self forKey:[NSString stringWithFormat:@"%d", hotKeyID]];
 }
 
--(void) unregister
+- (void)unregister
 {
     OSStatus err = UnregisterEventHotKey(carbonHotKeyRef);
     

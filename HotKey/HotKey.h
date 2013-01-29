@@ -28,5 +28,6 @@
 -(id) initWithKeyCode:(UInt32)keyCode modifierFlags:(UInt32)modifierFlags;
 -(UInt32) cocoaModifierFlagsToCarbon: (UInt32)cocoaModifierFlags;
 -(void) registerUsingBlock:(void (^)())handlerBlock error:(NSError **)error;
+-(void) unregister;
 
 @end
