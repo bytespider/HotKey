@@ -7,39 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C198270516AF3667002830C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C198270316AF3667002830C0 /* InfoPlist.strings */; };
-		C198270916AF3667002830C0 /* HotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = C198270816AF3667002830C0 /* HotKey.m */; };
-		C198271016AF36C9002830C0 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C198270F16AF36C9002830C0 /* Carbon.framework */; };
-		C198272D16AF3EA7002830C0 /* HotKey.h in Headers */ = {isa = PBXBuildFile; fileRef = C198270716AF3667002830C0 /* HotKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C16C531A16B95BB700E89299 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19826FA16AF3667002830C0 /* Cocoa.framework */; };
+		C16C532416B95BB700E89299 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C16C532216B95BB700E89299 /* InfoPlist.strings */; };
+		C16C532816B95BB700E89299 /* HotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C532716B95BB700E89299 /* HotKey.m */; };
+		C16C532C16B95CB900E89299 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C198270F16AF36C9002830C0 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C19826F716AF3667002830C0 /* HotKey.framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HotKey.framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16C531916B95BB700E89299 /* HotKey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HotKey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16C531C16B95BB700E89299 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C16C531D16B95BB700E89299 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C16C531E16B95BB700E89299 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C16C532116B95BB700E89299 /* HotKey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotKey-Info.plist"; sourceTree = "<group>"; };
+		C16C532316B95BB700E89299 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C16C532516B95BB700E89299 /* HotKey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotKey-Prefix.pch"; sourceTree = "<group>"; };
+		C16C532616B95BB700E89299 /* HotKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotKey.h; sourceTree = "<group>"; };
+		C16C532716B95BB700E89299 /* HotKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotKey.m; sourceTree = "<group>"; };
 		C19826FA16AF3667002830C0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		C198270216AF3667002830C0 /* HotKey-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HotKey-Info.plist"; sourceTree = "<group>"; };
-		C198270416AF3667002830C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C198270616AF3667002830C0 /* HotKey-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotKey-Prefix.pch"; sourceTree = "<group>"; };
-		C198270716AF3667002830C0 /* HotKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotKey.h; sourceTree = "<group>"; };
-		C198270816AF3667002830C0 /* HotKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotKey.m; sourceTree = "<group>"; };
 		C198270F16AF36C9002830C0 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C19826F316AF3667002830C0 /* Frameworks */ = {
+		C16C531516B95BB700E89299 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C198271016AF36C9002830C0 /* Carbon.framework in Frameworks */,
+				C16C532C16B95CB900E89299 /* Carbon.framework in Frameworks */,
+				C16C531A16B95BB700E89299 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C16C531B16B95BB700E89299 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C16C531C16B95BB700E89299 /* AppKit.framework */,
+				C16C531D16B95BB700E89299 /* CoreData.framework */,
+				C16C531E16B95BB700E89299 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C16C531F16B95BB700E89299 /* HotKey */ = {
+			isa = PBXGroup;
+			children = (
+				C16C532616B95BB700E89299 /* HotKey.h */,
+				C16C532716B95BB700E89299 /* HotKey.m */,
+				C16C532016B95BB700E89299 /* Supporting Files */,
+			);
+			path = HotKey;
+			sourceTree = "<group>";
+		};
+		C16C532016B95BB700E89299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C16C532116B95BB700E89299 /* HotKey-Info.plist */,
+				C16C532216B95BB700E89299 /* InfoPlist.strings */,
+				C16C532516B95BB700E89299 /* HotKey-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C19826EB16AF3667002830C0 = {
 			isa = PBXGroup;
 			children = (
-				C198270016AF3667002830C0 /* HotKey */,
+				C16C531F16B95BB700E89299 /* HotKey */,
 				C19826F916AF3667002830C0 /* Frameworks */,
 				C19826F816AF3667002830C0 /* Products */,
 			);
@@ -48,7 +82,7 @@
 		C19826F816AF3667002830C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C19826F716AF3667002830C0 /* HotKey.framework.framework */,
+				C16C531916B95BB700E89299 /* HotKey.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,52 +92,32 @@
 			children = (
 				C198270F16AF36C9002830C0 /* Carbon.framework */,
 				C19826FA16AF3667002830C0 /* Cocoa.framework */,
+				C16C531B16B95BB700E89299 /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C198270016AF3667002830C0 /* HotKey */ = {
-			isa = PBXGroup;
-			children = (
-				C198270716AF3667002830C0 /* HotKey.h */,
-				C198270816AF3667002830C0 /* HotKey.m */,
-				C198270116AF3667002830C0 /* Supporting Files */,
-			);
-			path = HotKey;
-			sourceTree = "<group>";
-		};
-		C198270116AF3667002830C0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C198270216AF3667002830C0 /* HotKey-Info.plist */,
-				C198270316AF3667002830C0 /* InfoPlist.strings */,
-				C198270616AF3667002830C0 /* HotKey-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C19826F416AF3667002830C0 /* Headers */ = {
+		C16C531616B95BB700E89299 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C198272D16AF3EA7002830C0 /* HotKey.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C19826F616AF3667002830C0 /* HotKey */ = {
+		C16C531816B95BB700E89299 /* HotKey */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C198270C16AF3667002830C0 /* Build configuration list for PBXNativeTarget "HotKey" */;
+			buildConfigurationList = C16C532916B95BB700E89299 /* Build configuration list for PBXNativeTarget "HotKey" */;
 			buildPhases = (
-				C19826F216AF3667002830C0 /* Sources */,
-				C19826F316AF3667002830C0 /* Frameworks */,
-				C19826F416AF3667002830C0 /* Headers */,
-				C19826F516AF3667002830C0 /* Resources */,
+				C16C531416B95BB700E89299 /* Sources */,
+				C16C531516B95BB700E89299 /* Frameworks */,
+				C16C531616B95BB700E89299 /* Headers */,
+				C16C531716B95BB700E89299 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -111,7 +125,7 @@
 			);
 			name = HotKey;
 			productName = HotKey;
-			productReference = C19826F716AF3667002830C0 /* HotKey.framework.framework */;
+			productReference = C16C531916B95BB700E89299 /* HotKey.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -135,38 +149,38 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C19826F616AF3667002830C0 /* HotKey */,
+				C16C531816B95BB700E89299 /* HotKey */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C19826F516AF3667002830C0 /* Resources */ = {
+		C16C531716B95BB700E89299 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C198270516AF3667002830C0 /* InfoPlist.strings in Resources */,
+				C16C532416B95BB700E89299 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C19826F216AF3667002830C0 /* Sources */ = {
+		C16C531416B95BB700E89299 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C198270916AF3667002830C0 /* HotKey.m in Sources */,
+				C16C532816B95BB700E89299 /* HotKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C198270316AF3667002830C0 /* InfoPlist.strings */ = {
+		C16C532216B95BB700E89299 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C198270416AF3667002830C0 /* en */,
+				C16C532316B95BB700E89299 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -174,6 +188,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C16C532A16B95BB700E89299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotKey/HotKey-Prefix.pch";
+				INFOPLIST_FILE = "HotKey/HotKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		C16C532B16B95BB700E89299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HotKey/HotKey-Prefix.pch";
+				INFOPLIST_FILE = "HotKey/HotKey-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
 		C198270A16AF3667002830C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -227,53 +271,22 @@
 			};
 			name = Release;
 		};
-		C198270D16AF3667002830C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HotKey/HotKey-Prefix.pch";
-				INFOPLIST_FILE = "HotKey/HotKey-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Debug;
-		};
-		C198270E16AF3667002830C0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "HotKey/HotKey-Prefix.pch";
-				INFOPLIST_FILE = "HotKey/HotKey-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C16C532916B95BB700E89299 /* Build configuration list for PBXNativeTarget "HotKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16C532A16B95BB700E89299 /* Debug */,
+				C16C532B16B95BB700E89299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C19826F016AF3667002830C0 /* Build configuration list for PBXProject "HotKey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C198270A16AF3667002830C0 /* Debug */,
 				C198270B16AF3667002830C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C198270C16AF3667002830C0 /* Build configuration list for PBXNativeTarget "HotKey" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C198270D16AF3667002830C0 /* Debug */,
-				C198270E16AF3667002830C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
