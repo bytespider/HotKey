@@ -11,6 +11,7 @@
 		C16C532416B95BB700E89299 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C16C532216B95BB700E89299 /* InfoPlist.strings */; };
 		C16C532816B95BB700E89299 /* HotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C532716B95BB700E89299 /* HotKey.m */; };
 		C16C532C16B95CB900E89299 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C198270F16AF36C9002830C0 /* Carbon.framework */; };
+		C16C537816B95D7A00E89299 /* HotKey.h in Headers */ = {isa = PBXBuildFile; fileRef = C16C532616B95BB700E89299 /* HotKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +105,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16C537816B95D7A00E89299 /* HotKey.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +283,7 @@
 				C16C532B16B95BB700E89299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C19826F016AF3667002830C0 /* Build configuration list for PBXProject "HotKey" */ = {
 			isa = XCConfigurationList;
